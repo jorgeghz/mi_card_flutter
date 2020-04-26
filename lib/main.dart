@@ -18,11 +18,12 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Container(
+                margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
                 height: double.infinity,
                 width: 100,
 
                 color: Colors.red,
-                child: Text('Hello'),
+
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -31,14 +32,14 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height:100,
                     color: Colors.yellow,
-                    child: Text('Container 2'),
+
 
                   ),
                   Container(
                     width: 100,
                     height:100,
                     color: Colors.lightGreen,
-                    child: Text('Container 2-1'),
+
 
                   ),
 
@@ -47,10 +48,11 @@ class MyApp extends StatelessWidget {
               ),
 
               Container(
+                margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
                 width:100,
                 height: double.infinity,
                 color: Colors.blue,
-                child: Text('Container 3'),
+
 
               )
 
